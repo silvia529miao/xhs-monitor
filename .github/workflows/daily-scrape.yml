@@ -4,7 +4,7 @@ on:
   # 每天定时运行
   schedule:
     # 每天早上 8:30 北京时间 (UTC+8 = 0:30 UTC)
-    - cron: '30 0 * * *'
+    - cron: '35 2 * * *'
   
   # 允许手动触发
   workflow_dispatch:
